@@ -1,10 +1,6 @@
 steps:
   - label: ":console:"
-<<<<<<< HEAD
-    command: "../scripts/sample.sh"
-=======
     command: "scripts/sample.sh"
->>>>>>> 364d391 (✨ Added buildkite stuff)
     parallelism: 5
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
